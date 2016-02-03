@@ -3,9 +3,9 @@
 Edgar provides you the best of SoundCloud directly into your Google Music account for your best pleasure.
 
 Edgar duties consist in:
-- Checking everyday (cronjob) your SoundCloud liked songs and playlists,
-- Downloading the new entries (songs and metadata),
-- Uploading the new entries to your Google Music account,
+- Checking everyday (cronjob) your SoundCloud liked songs and playlists ([SoundCloud API](https://developers.soundcloud.com/docs/api/guide)),
+- Downloading the new entries, songs and metadata ([youtube-dl](https://github.com/rg3/youtube-dl)),
+- Uploading the new entries to your Google Music account ([gmusicapi](https://github.com/simon-weber/gmusicapi)),
 - Editing the new entries (including song front cover),
 - Building a weekly web report (cronjob) of its activities (script To Be Updated).
 
